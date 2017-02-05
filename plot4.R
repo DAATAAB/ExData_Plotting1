@@ -17,7 +17,7 @@ par(mfrow = c(2,2))
 #1st plot
 
 plot(electro_sub$datetime, electro_sub$Global_active_power, 
-     type = "l", xlab = "", ylab = "Global Active Power (kilowatts)")
+     type = "l", xlab = "", ylab = "Global Active Power")
 
 
 #2nd plot
